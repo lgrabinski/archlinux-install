@@ -4,7 +4,7 @@
 timedatectl set-ntp true
 
 # Partition the disks
-parted --script /dev/sda 
+parted --script /dev/sda mklabel msdos mkpart primary ext4 1MiB 60GiB mkpart primary linux-swap 60GiB 62GiB
 
 # Format the partitions 
 mkfs.ext4 /dev/sda1
