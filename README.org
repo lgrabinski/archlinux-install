@@ -1,0 +1,7 @@
+#+TITLE: ArchLinux Install
+#+AUTHOR: lgrabinski 
+#+EMAIL: lgrabinski@gmail.com
+
+Set of scripts to automates ArchLinux installation inspired by: https://github.com/abrochard/spartan-arch.
+Detailed command based on official ArchLinux Wiki page: https://wiki.archlinux.org/title/Installation_guide
+
